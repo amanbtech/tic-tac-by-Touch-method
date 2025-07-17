@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @media (min-width: 600px) and (max-width: 1366px)  
+{
+
+  
+      .container{
+        width:98vw;
+        height:98vh;
+        display: grid;
+    grid-template-columns:  1fr 250px;
+    grid-template-rows: 1fr;
+    
+    column-gap: 30px;
+}
+
+.input{
+  display: grid;
+  justify-items: center;
+  align-items: center;
+   grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    column-gap: 2px;
+
+    border-radius: 10px;
+  
+}
+.K1,.K2,.K3,.K4,.K5,.K6,.K7,.K8,.K9,.K10,.K11,.K12{
+  font-size: 8rem;
+
+}
+.area1,.area2,.area3,.area4,.area5,.area6,.area7,.area8,.area9{
+
+    text-align: center;
+    
+    border: 6px solid;
+    border-image-slice: 1;
+   
+
+    border-image-source: linear-gradient(to right, red, yellow, green, blue, violet);
+ 
+}
+
+}     
+   
+  </style>
+
+
+
+</head>
+<body>
+  <div class="container">
+    <div class="screen">
+      <div class="area1"></div>
+      <div class="area2"></div>
+      <div class="area3"></div>
+      <div class="area4"></div>
+      <div class="area5"></div>
+      <div class="area6"></div>
+      <div class="area7"></div>
+      <div class="area8"></div>
+      <div class="area9"></div>
+    </div>
+    <div class="input">
+      <div class="K1">X</div>
+      <div class="K2">X</div>
+      <div class="K3">X</div>
+      <div class="K4">X</div>
+      <div class="K5">X</div>
+      <div class="K6">X</div>
+      <div class="K7">O</div>
+      <div class="K8">O</div>
+      <div class="K9">O</div>
+      <div class="K10">O</div>
+      <div class="K11">O</div>
+      <div class="K12">O</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  
+</body>
+</html>
