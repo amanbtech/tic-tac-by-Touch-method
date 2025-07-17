@@ -1,4 +1,13 @@
+alert(" welcome to tic-tac game ");
+ alert("note-x/o should be in box not align with box border");
 
+alert("PRESS ok to start the game");
+
+const firstUser=prompt("first player get X");
+
+
+
+const secondUser=prompt("second player get y");
 const boxes = document.querySelectorAll(".input > div"); 
 let isdraging = false;     
 let offsetX, offsetY;  
@@ -68,7 +77,11 @@ document.addEventListener("mouseup", (e) => {
       a.innerText === "X" && k.innerText === "X" && i.innerText === "X" ||
       c.innerText === "X" && k.innerText === "X" && g.innerText === "X"
     ) {
-      alert("x  WIN");
+        alert(" 🎮 thanks for played and  for follow 📝note point. 👇 press ok "
+
+        );
+        alert(`${firstUser} and ${secondUser} you both played well 🎉 👇 press ok to see result`);
+      alert(`🎉🎉 ${firstUser} win 🎉🎉`);
     }
     else if( a.innerText === "O" && b.innerText === "O" && c.innerText === "O" ||
       d.innerText === "O" && k.innerText === "O" && f.innerText === "O" ||
@@ -80,7 +93,11 @@ document.addEventListener("mouseup", (e) => {
 
       a.innerText === "O" && k.innerText === "O" && i.innerText === "O" ||
       c.innerText === "O" && k.innerText === "O" && g.innerText === "O"){
-        alert(" O WIN")
+         alert("thanks for played and  for follow note points" /n,"👇press ok "
+
+        );
+        alert(`${firstUser} and ${secondUser} you both played well 🎉 👇press ok to see result`);
+        alert(`🎉🎉 ${secondUser} win 🎉 🎉`);
       }
   }
 });
