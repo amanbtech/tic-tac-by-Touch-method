@@ -93,12 +93,12 @@ document.addEventListener("mouseup", (e) => {
 
       a.innerText === "O" && k.innerText === "O" && i.innerText === "O" ||
       c.innerText === "O" && k.innerText === "O" && g.innerText === "O"){
-         alert("thanks for played and  for follow note points" /n,"👇press ok "
+         alert("🎮 thanks for played and  for follow 📝note point. 👇 press ok "
 
         );
         alert(`${firstUser} and ${secondUser} you both played well 🎉 👇press ok to see result`);
         alert(`🎉🎉 ${secondUser} win 🎉 🎉`);
-      }
-  }
+      };
+  };
 });
 
