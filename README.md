@@ -1,40 +1,38 @@
-# TIC-TAC Game by Touch Method 🎮
+# Tic Tac Toe Game
 
-A simple Tic-Tac-Toe game designed for touch devices using HTML, CSS, and JavaScript. Play with your friends directly in the browser!
+A responsive and touch-friendly Tic-Tac-Toe game built using HTML, CSS, and JavaScript. Players can enjoy a smooth two-player gaming experience directly in the browser.
 
----
+## Live Demo
 
-## 📱 Features
+🔗 https://amanbtech.github.io/tic-tac-by-Touch-method/
 
-- Touch-friendly grid
-- Two-player mode
-- Win & draw detection
-- Minimal and clean UI
+## Features
 
----
+- Touch-friendly game board
+- Two-player gameplay
+- Win detection system
+- Draw detection
+- Restart game functionality
+- Responsive design
 
-## 🚀 How to Play
+## Tech Stack
 
-1. Open the game in a browser
-2. Tap on any box to make your move
-3. First player to align 3 Xs or Os wins!
-
----
-
-## 🔧 Tech Used
-
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript (Vanilla)
 
-## 🌐 Live Demo
+## Game Rules
 
-[Click here to play](https://amanbtech.github.io/tic-tac-by-Touch-method/)
+1. Player X starts first.
+2. Players take turns placing X and O.
+3. First player to align three symbols horizontally, vertically, or diagonally wins.
+4. If all cells are filled without a winner, the game ends in a draw.
 
-> Replace this link with your GitHub Pages link (if hosted)
+## Project Structure
 
----
-
-## 🧠 Author
-
-- [Amandeep](https://github.com/amanbtech)
+```text
+tic-tac-toe/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
